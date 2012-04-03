@@ -3,9 +3,9 @@
  */
 
 (function($) {
+	$('.cms-tree').setAttribute("aria-role", "tree");
 
 	$.entwine('ss', function($){
-	
 		$('.cms-tree').entwine({
 			
 			Hints: null,
